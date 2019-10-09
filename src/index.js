@@ -1,3 +1,5 @@
 module.exports = function multiply(first, second) {
-  // your solution
+  var result = BigInt(first) * BigInt(second); //use new type date for very big numder//
+  return result.toString();
 }
+console.log(module.exports)
